@@ -11,3 +11,30 @@
     <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
+## 4.引入Dubbo相关依赖
+```xml
+<!-- https://mvnrepository.com/artifact/com.alibaba/dubbo -->
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>dubbo</artifactId>
+    <version>2.6.7</version>
+</dependency>
+```
+- Dubbo2.6之前的版本引入zkclient操作Zookeeper
+```xml
+<!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
+<dependency>
+    <groupId>com.101tec</groupId>
+    <artifactId>zkclient</artifactId>
+    <version>0.11</version>
+</dependency>
+```
+- Dubbo2.6之后的版本引入curator操作Zookeeper
+```xml
+<!-- https://mvnrepository.com/artifact/org.apache.curator/curator-framework -->
+<dependency>
+    <groupId>org.apache.curator</groupId>
+    <artifactId>curator-framework</artifactId>
+    <version>4.2.0</version>
+</dependency>
+```
